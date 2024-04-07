@@ -46,3 +46,15 @@ INSERT INTO Users(name,email,phone_number,status_id,indeks,gender,birthdate,addr
 (Anetta Buttriss,abuttriss7@tmall.com,304-134-6985,8,8,Female,7/16/1971,12148 Mayer Crossing,Kertahayu)
 (Tabbie Legges,tlegges8@dedecms.com,908-555-6300,9,9,Male,8/11/1958,9015 6th Pass,Kalpáki)
 (Lorry Blayney,lblayney9@facebook.com,530-716-7374,10,10,Male,11/4/1985,05626 6th Lane,Amparita)
+
+INSERT INTO(book_id,library_id,status_id,wear)VALUES
+(1,1,1,Well-Worn)
+(2,2,2,New)
+(3,3,3,Minimal Wear)
+(4,4,4,New)
+(5,5,5,Well-Worn)
+(6,6,6,New)
+(7,7,7,Minimal Wear)
+(8,8,8,New)
+(9,9,9,Minimal Wear)
+(10,10,10,New)
