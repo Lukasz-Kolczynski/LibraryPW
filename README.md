@@ -1,11 +1,48 @@
+INSERT INTO Books(author_id,description,title,publishing_year,publishing_house_id,category_id,numbers_of_books,elementary_book_id) VALUES
+(72,nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut,Rev,1983,28,7,50,93)
+(8,justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non,Rev,1972,27,8,39,48)
+(68,mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue,Rev,1920,98,10,53,58)
+(79,mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam,Mrs,1995,1,2,80,75)
+(90,fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque,Ms,1922,76,10,89,17)
+(10,amet nulla quisque arcu libero rutrum ac lobortis vel dapibus,Dr,1926,81,9,80,0)
+(50,sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis,Dr,1997,89,5,30,72)
+(11,turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris,Mr,1966,80,6,72,47)
+(12,maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut,Ms,1913,76,9,95,29)
+(3,parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida,Mr,1950,41,6,18,8)
+
+
 INSERT INTO Rents (user_id, elementary_book_id, rent_date, return_date, order_id, extension_id, employee_id) VALUES
-1,1,24/5/2023,6/9/2024,1,1,1
-2,2,28/4/2023,15/3/2024,2,2,2
-3,3,3/9/2023,10/3/2024,3,3,3
-4,4,10/2/2023,13/11/2024,4,4,4
-5,5,5/11/2023,30/9/2024,5,5,5
-6,6,7/9/2023,16/9/2024,6,6,6
-7,7,20/6/2023,20/7/2024,7,7,7
-8,8,30/10/2023,12/12/2024,8,8,8
-9,9,19/9/2023,2/6/2024,9,9,9
-10,10,17/6/2023,7/2/2024,10,10,10
+(1,1,24/5/2023,6/9/2024,1,1,1)
+(2,2,28/4/2023,15/3/2024,2,2,2)
+(3,3,3/9/2023,10/3/2024,3,3,3)
+(4,4,10/2/2023,13/11/2024,4,4,4)
+(5,5,5/11/2023,30/9/2024,5,5,5)
+(6,6,7/9/2023,16/9/2024,6,6,6)
+(7,7,20/6/2023,20/7/2024,7,7,7)
+(8,8,30/10/2023,12/12/2024,8,8,8)
+(9,9,19/9/2023,2/6/2024,9,9,9)
+(10,10,17/6/2023,7/2/2024,10,10,10)
+
+INSERT INTO Orders(elementary_book_id,user_id,date,pickup_time)VALUES
+(72,87,11/1/2023,9:00 AM)
+(66,22,8/6/2023,6:13 PM)
+(88,96,2/24/2023,1:33 AM)
+(59,56,7/31/2024,8:03 AM)
+(77,43,4/25/2024,7:41 AM)
+(94,36,9/2/2023,12:53 AM)
+(55,92,11/25/2023,6:04 PM)
+(45,98,3/7/2024,4:30 AM)
+(70,47,5/20/2023,10:06 PM)
+(50,18,10/3/2024,1:05 PM)
+
+INSERT INTO Users(name,email,phone_number,status_id,indeks,gender,birthdate,address,city)VALUES
+(Ephraim Tyres,etyres0@surveymonkey.com,535-411-2707,1,1,Male,12/15/1953,444 Nancy Crossing,Kuala Lumpur)
+(Joby Densumbe,jdensumbe1@cnet.com,790-168-4579,2,2,Female,9/28/1969,8795 Cherokee Crossing,Ar Rifā‘)
+(Booth Hadingham,bhadingham2@chronoengine.com,583-429-2690,3,3,Male,8/20/1953,7 Veith Street,Orahovica Donja)
+(Jessamyn Yitzovicz,jyitzovicz3@cbsnews.com,867-624-4425,4,4,Genderqueer,1/19/1997,38 Toban Place,Skiáthos)
+(Packston Simper,psimper4@themeforest.net,888-623-8153,5,5,Male,4/15/1994,98 Walton Point,Taytayan)
+(Cathlene Joy,cjoy5@bravesites.com,544-911-1246,6,6,Female,8/18/2002,602 Elgar Alley,Chelbasskaya)
+(Bil Lacaze,blacaze6@sina.com.cn,445-588-9092,7,7,Male,10/7/1993,6361 School Street,Yanshan)
+(Anetta Buttriss,abuttriss7@tmall.com,304-134-6985,8,8,Female,7/16/1971,12148 Mayer Crossing,Kertahayu)
+(Tabbie Legges,tlegges8@dedecms.com,908-555-6300,9,9,Male,8/11/1958,9015 6th Pass,Kalpáki)
+(Lorry Blayney,lblayney9@facebook.com,530-716-7374,10,10,Male,11/4/1985,05626 6th Lane,Amparita)
